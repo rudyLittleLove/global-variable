@@ -30,7 +30,7 @@ module.exports = {
   // 全局注入变量 方法二
   chainWebpack: config => {
     // ----------scss-------------
-    // 需要安装 stylus-resources-loader 插件
+    // 需要安装 style-resources-loader 插件
     // const oneOfsMap = config.module.rule("scss").oneOfs.store;
     // oneOfsMap.forEach(item => {
     //   item
@@ -91,7 +91,7 @@ module.exports = {
     // });
   },
   // 全局注入方法三
-  // !!!!!! 重点 使用此方法请 在控制台 执行 vue add stylus-resources-loader
+  // !!!!!! 重点 使用此方法请 在控制台 执行 vue add style-resources-loader
   // 会自动安装 vue-cli-plugin-style-resources-loader
   pluginOptions: {
     // -----------stylus--------------
